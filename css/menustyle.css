@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+}
+
+
+i{
+    cursor: pointer;
+}
+
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4caf4f8f;
+    color: white;
+    padding: 25px 60px;
+    margin-bottom: 30px;
+}
+
+.cart{
+    position: relative;
+    background-color: #fff;
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cartAmount{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.logofont{
+    font-family: 'Qwitcher Grypen', cursive, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* main */
+.slogan{
+    font-family: 'Qwitcher Grypen', cursive, "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;   
+}
+
+.btn{
+    background-color:  #33b249;
+    width: 300px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+/* shop items style */
+.shop{
+    display: grid;
+    grid-template-columns: repeat(3, 223px);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1000px){
+    .shop{
+      grid-template-columns: repeat(2, 223px);  
+    }
+}
+
+@media (max-width: 500px){
+    .shop{
+      grid-template-columns: repeat(1, 223px);  
+    }
+}
+
+.item{
+    border: 2px solid #212529;
+    border-radius: 4px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+  }
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.bi-dash-lg{
+    color: red;
+}
+
+.bi-plus-lg{
+    color: green;
+}
+
+/* stle rules for label and some buttons */
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn, .removeAll, .out {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.out{
+    background-color: green;
+}
+
+.removeAll{
+    background-color: red;
+}
+
+.bi-x-lg{
+    color: red;
+    font-weight: bold;
+}
+
+/* style rules for shopping-cart */
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+/* style rules for  cart-item */
+.cart-item{
+    border: 2px solid #212529;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title-price-x{
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price{
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding:3px 6px;
+}
+
+/* footer */
+.bg-footer{
+    background-color: #4caf4f8f;
+    padding: 10px 10px;
+    border: 1px  solid black;
+    
+} 
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4caf4f8f;
+    padding: 25px 60px;
+    margin-top: 30px;
+}
+
+
+
