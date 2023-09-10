@@ -27,7 +27,7 @@
 		</div>
 	</nav> 
 	
-	<h1 class="display-5 text-center slogan">The Best Italian Pizza in The Town!</h1>
+	<h1 class="display-5 text-center slogan">The Best Italian Restaurant in The Town!</h1>
 	
 </header>
 
