@@ -5,7 +5,7 @@
     <body>
         <?php include ('header.php'); ?>
 
-        <main>
+        <main class="mt-2">
             <div class="d-grid gap-3 mt-5 container">
                 <div class="btn btn-block container mx-auto">
                     <i class="bi bi-telephone-outbound"></i>&nbsp;

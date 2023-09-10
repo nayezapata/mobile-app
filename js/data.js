@@ -4,6 +4,6 @@ let shopItemsData = [
     {id:"idtwo", name:"Pepperoni Pizza", price: 19, img:"images/ppizza.jpg"}, 
     {id:"idthree", name:"Vegies Pizza", price: 20, img:"images/vpizza.jpg"}, 
     {id:"idfour", name:"Lasagna", price: 21, img:"images/lasagna.jpg"},
-    {id:"idfour", name:"Spaghetti", price: 21, img:"images/spaghetti.jpg"},
-    {id:"idfour", name:"Salad", price: 21, img:"images/salad.jpg"},
+    {id:"idfive", name:"Spaghetti", price: 21, img:"images/spaghetti.jpg"},
+    {id:"idsix", name:"Salad", price: 21, img:"images/salad.jpg"},
 ];

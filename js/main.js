@@ -11,9 +11,9 @@ let generateShop = () => {
         <div id=product-id-${id} class="item">
             <img width="218" src=${img} alt="">
             <div class="details">
-                <h3>${name}</h3>
+                <h5>${name}</h5>
                 <div class="price-quantity">
-                    <h2>$ ${price}</h2>
+                    <h5>$ ${price}</h5>
                     <div class="buttons">
                         <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
                         <div id=${id} class="quantity">

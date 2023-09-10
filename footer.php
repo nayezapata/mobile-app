@@ -1,7 +1,7 @@
 
-<footer>
+<footer class="container-fluid">
     
-    <div class="footer">
+    <div class="footer ">
         <a class="navbar-brand float-start logofont" href="index.php"><img src="images/vpizza.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> Italian Pizza </a>
         <p>1234 N Milwaukee St, Boise, ID</p>
 
